@@ -5,17 +5,17 @@ using System;
 class Program
 {
 
-   static void Main()
+    static void Main()
     {
         Console.WriteLine("Введите число N:  ");
         int N = Convert.ToInt32(Console.ReadLine());
-        for (int i=0; i<N; i++)
+        for (int i = 0; i < N; i++)
         {
 
-        Console.Write($"{Math.Pow((i+1),3)}   ");
-     
-       }
-        
-        
+            Console.Write($"{Math.Pow((i + 1), 3)}   ");
+
+        }
+
+
     }
 }
